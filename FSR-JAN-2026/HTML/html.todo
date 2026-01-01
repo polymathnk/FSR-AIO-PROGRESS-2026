@@ -1,0 +1,83 @@
+01. DOCTYPE AND COMMENT
+  [+] `<!DOCTYPE html>`
+  [+] `<!-- -->`
+
+02. BASIC STRUCTURE AND TAGS
+  [+] `<html>`
+  [+] `<head>`
+  [+] `<meta>`
+  [+] `<title>`
+  [+] `<body>`
+  [+] `<div>`
+
+03. TEXT FORMATTING
+  [+] `<h1>` to `<h6>`
+  [+] `<p>`
+  [+] `<strong>` and `<em>` and `del`
+  [+] `<span>`
+
+04. LINKS AND ANCHORS
+  [+] `<a>`
+  [+] `href`
+  [+] `target`
+  [+] `link`
+
+  05. IMAGES
+  [+] `<img>`
+  [+] `src`
+  [+] `alt`
+
+06. LISTS
+  [+] `<ul>`
+  [+] `<ol>`
+  [+] `<li>`
+  [+] Nested Lists
+
+07. TABLES
+  [+] `<table>`
+  [+] `<tr>`
+  [+] `<th>`
+  [+] `<td>`
+  [+] `<caption>`
+
+08. FORMS
+  [+] `<form>`
+  [+] `label`
+  [+] `name`
+  [+] `<input>`
+  [+] `<value>`
+  [+] `<required>`
+  [+] `<textarea>`
+  [+] `type`
+  [+] `<button>`
+  [+] `<select>`
+  [+] `option`
+  [+] `<selected>`
+  [+] `<checked>`
+  [+] `<placeholder>`
+
+09. SEMANTIC ELEMENTS
+  [+] `<header>`, `<footer>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`
+
+10. MULTIMEDIA
+  [+] `<audio>`
+  [+] `<video>`
+
+11. HTML5 FEATURES
+  [+] `<canvas>`
+  [+] `<svg>`
+  [+] `<datalist>`
+
+  12. OTHER HTML ATTRIBUTES
+  [+] `<id>`
+  [+] `<class>`
+  [+] `<style>`
+  [+] `<rel>`
+  [+] `<type>`
+  [+] `<download>`
+  [+] `<readonly>`
+  [+] `<disabled>`
+  [+] `<autofocus>`
+  [+] `<autocomplete>`
+  [+] `<multiple>`
+  [+] `<contenteditable>`
