@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form and Inputs</title>
+</head>
+
+<body>
+    <h3>Here's a simple html form structure</h3>
+
+    <form action="this is where you are gonna submit the form">
+        <!-- Text input -->
+        <div>
+            <label for="name">Name</label><br />
+            <input type="text" name="name" id="name" placeholder="enter name" re />
+        </div>
+        <!-- Email input -->
+        <div>
+            <label for="email">Email</label><br />
+            <input type="email" name="email" id="email" placeholder="enter email" required />
+        </div>
+        <!-- Textarea input  -->
+        <div>
+            <label for="message">Message</label><br />
+            <textarea name="message" id="message" cols="50" rows="5" placeholder="type message"></textarea>
+        </div>
+        <!-- Select input  -->
+        <div>
+            <label for="sex">Sex</label><br />
+            <select name="sex" id="sex">
+                <option value="male" selected>Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <!-- Number input  -->
+        <div>
+            <label for="age">Age</label><br />
+            <input type="number" name="age" id="age" placeholder="enter age" />
+        </div>
+        <!-- Date input  -->
+        <div>
+            <label for="birthday">Birthday</label><br />
+            <input type="date" name="" id="" />
+        </div>
+        <!-- Radio input  -->
+        <div>
+            <label for="membership">Membership</label><br />
+            <input type="radio" name="gold" id="membership" value="gold" checked />
+            Gold
+            <input type="radio" name="platinium" id="membership" value="platinium" />
+            Platinium
+            <input type="radio" name="diamond" id="membership" value="diamond" />
+            Diamond
+        </div>
+        <!-- Checkbox input  -->
+        <div>
+            <label for="membership">Fav Vehicle</label><br />
+            <input type="checkbox" name="bikes" id="likes" value="bikes" checked />
+            Bikes <input type="checkbox" name="cars" id="likes" value="cars" /> Cars
+            <input type="checkbox" name="planes" id="likes" value="planes" /> Planes
+        </div>
+        <!-- Submit input  -->
+        <div>
+            <input type="submit" value="Submit by input" />
+            <!-- <button type="submit">Submit by button</button> -->
+        </div>
+        <!-- Reset the form values  -->
+        <div>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+
+</html>
