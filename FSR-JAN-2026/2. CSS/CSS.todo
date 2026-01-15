@@ -1,0 +1,90 @@
+01. BOX MODEL
+[+] Margin
+[+] Padding
+[+] Border
+[+] Content
+[+] Shadow
+[+] Radius
+
+02. UNITS
+[+] px
+[+] em
+[+] rem
+[+] %
+[+] s
+
+03. SELECTORS
+[+] Simple slelectors
+[+] Combinator selectors
+[+] Pseudo-classes selectors
+[+] Pseudo-elements selectors
+[+] Attribute selectors
+
+04. TYPOGRAPHY
+[+] Web-fonts
+[+] Font-family
+[+] Font-size
+[+] Font-weight
+[+] Line-height
+[+] Letter-spacing
+[+] Word-spacing
+[+] Text-align
+[+] Text-decoration
+[+] Text-Overflow
+[+] Text-Shadows
+
+05. COLORS
+[+] Color 
+[+] Color Values
+[+] RGB
+[+] RGBA
+[+] HSLA
+[+] Opacity
+
+06. BACKGROUNDS
+[+] Background-color
+[+] Background-image
+[+] Background-size
+[+] Background-position
+[+] Background-repeat
+[+] Background-blend-mode
+[+] Multiple-backgrounds
+
+07. DISPLAY 
+[+] Block
+[+] Inline
+[+] Inline-block
+[+] Visbility
+[+] Display
+
+08. POSITIONS
+[+] Static position
+[+] Relative position
+[+] Absolute position
+[+] Fixed position
+[+] Z-index position
+
+09. LAYOUTS
+[+] Flexbox layout
+[+] Grid layout
+
+10. RESPONSIVE DESIGN
+[+] Media queries
+[+] Mobile-first approach
+[+] Breakpoint strategies
+[+] Responsive units (em, rm, vw, vh, vmin, vmax)
+[+] Responsive images (srcset, sizes)
+
+11. TRANSITIONS AND ANIMATIONS
+[+] Transitions
+[+] Animations
+[+] Keyframes
+
+12. CSS PREPROCESSORS
+[+] Sass
+[+] Variables
+[+] Mixins
+[+] Nested rules
+[+] Minification
+[+] Vendor prefixing
+[+] BEM, SMACSS
