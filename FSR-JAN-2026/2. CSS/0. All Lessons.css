@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAV MENU  */
+.nav-menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: aquamarine;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.nav-menu li{
+    float: left;
+}
+
+.nav-menu li a{
+    display: block;
+    color: blue;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.nav-menu li a:hover{
+    color: black;
+}
+
+/* SIDE MENU  */
+
+.side-menu{
+    list-style: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 300px;
+    padding: 20px;
+}
+
+.side-menu li{
+    font-size: 18px;
+    line-height: 2.4em;
+    border-bottom: 1px dotted black;
+}
+
+.side-menu li:last-child{
+    border: none;
+}
+
+.side-menu a{
+    color: black;
+    text-decoration: none;
+}
+
+.side-menu li a:hover{
+    color: coral;
+}
+
