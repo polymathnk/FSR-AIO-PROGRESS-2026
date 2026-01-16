@@ -1,0 +1,28 @@
+h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box{
+    margin: 20px;
+    padding: 20px;
+}
+
+/* padding-margin shorthand 
+    padding: top right bottom left;
+*/
+
+.box{
+    padding: 10px 20px 10px 20px ;
+}
+
+/* padding shorthand if top and bottom and right nad left are the same  
+    padding: top/bottom left/right
+*/
+
+.box{
+    padding: 12px 20px;
+}
