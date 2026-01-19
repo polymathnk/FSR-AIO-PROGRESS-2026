@@ -1,0 +1,43 @@
+/* Universal or Global Selector:*/
+*{
+    /* padding: 0;
+    margin: 0; */
+    box-sizing: border-box;
+}
+
+/* body selector, a part of simple selector */
+body{
+    background: grey;
+}
+
+/* class selectors  */
+.primary-heading{
+    color: blueviolet;
+}
+
+/* id selector  */
+#selector{
+    background: lightseagreen;
+}
+
+#selector-types{
+    color: white;
+}
+
+/* Multiple selectors :  use comma to separate elements or slectors to aplly the same CSS at the same time*/
+#selector, #selector-types{
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/* Nested selector : It's a type of Combinator Selector, used to select and aplly the CSS on children element of a
+                     parent element the only difference between the multiple and nested selector is nested slector 
+                     doesn't have any comma in between of the selected elements*/
+#selector > p{
+    font-size: 20px;
+}
+
+.secondary-header ~ ul{
+    background: black;
+}
