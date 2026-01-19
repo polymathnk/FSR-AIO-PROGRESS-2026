@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+#selector p span{
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+h2::first-letter{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+h2{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-decoration: underline;
+}
+
+p{
+    word-spacing: 10px;
+}
