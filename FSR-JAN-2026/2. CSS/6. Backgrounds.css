@@ -1,0 +1,36 @@
+#box-1{
+    background-color: blanchedalmond;
+    /* border-width: 3px;
+    border-color: black;
+    border-style: dashed; */
+    border: 3px red dashed;
+}
+
+#box-2{
+    padding-left: 10px;
+    background-color: aqua;
+    border-left: 5px solid black;
+}
+
+#box-3{
+    /* background: grey; */
+    border: 2px solid blueviolet;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+#box-4{
+    color: white;
+    /* background-image: url(https://images.unsplash.com/photo-1528818955841-a7f1425131b5?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RhcnJ5JTIwc2t5fGVufDB8fDB8fHww);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; */
+    background: url(https://images.unsplash.com/photo-1528818955841-a7f1425131b5?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RhcnJ5JTIwc2t5fGVufDB8fDB8fHww) no-repeat center center/cover;
+}
+
+#box-5{
+  background: url(./Mapple.png) no-repeat center center/cover;
+  background-attachment: fixed;
+  mix-blend-mode: darken;
+}
