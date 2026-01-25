@@ -1,0 +1,117 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container{
+    background: seashell;
+    display: flex;
+    /* cross axis align  */
+    align-items: center;
+    height: 50vh;
+    flex-direction: row;
+
+    /* main axis align  */
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.item{
+    border: 1px solid seashell;
+    background: gray;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    /* flex: 1; */
+}
+
+.item-1{
+    align-self: flex-start;
+}
+
+.item-3{
+    align-self: flex-end;
+}
+
+/* .item-1{
+    flex-shrink: 0;
+}
+.item-2{
+    flex-grow: 1;
+}
+.item-3{
+    flex-grow: 2;
+    flex-basis: 0;
+} */
+
+
+/* ............................................grid css.....................................................  */
+
+.grid{
+    display: grid;
+    /* grid-template-columns: 200px auto 200px; */
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-columns: repeat(3, auto); */
+    /* grid-template-columns: repeat(3, auto);  */
+    grid-template-columns: 1fr 2fr 1fr; 
+    grid-gap: 1rem;
+}
+
+.box{
+    padding: 20px;
+    border: 1px solid grey;
+    background: darkgray;
+    text-align: center;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1.5rem;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 2fr 1fr 2fr;
+    grid-gap: 1rem;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.box-g3{
+    padding: 20px;
+    border: 1px solid grey;
+    background: darkgray;
+    text-align: center;
+}
+
+.box-g3:first-child{
+    /* grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3; */
+    /* short way to do this  */
+
+    grid-column: 1/span 2;
+    grid-row: 1/span 2;   
+}
+
+.box-g3:nth-child(9){
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 2;
+}
+
+.grid-4{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
