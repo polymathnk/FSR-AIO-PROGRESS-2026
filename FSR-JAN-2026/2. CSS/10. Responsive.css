@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: gray;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    display: none;
+}
+
+/* Smartphones  */
+@media(max-width: 500px){
+    body{
+        background: red;
+    }
+    
+    #smartphone h1{
+        display: block;
+    }
+}
+
+/* Tablets  */
+@media(min-width: 501px) and (max-width: 768px){
+    body{
+        background: blueviolet;
+    }
+    
+    #tablet h1{
+        display: block;
+    }
+}
+
+/* Normal  */
+@media(min-width: 769px) and (max-width: 1200px){
+    body{
+        background: green;
+    }
+    
+    #normal h1{
+        display: block;
+    }
+}
+
+html{
+    font-size: 10px;
+}
+
+.box-1 h2{
+    font-size: 3em;
+}
+
+.box-1 p{
+    font-size: 1.5rem;
+}
+
