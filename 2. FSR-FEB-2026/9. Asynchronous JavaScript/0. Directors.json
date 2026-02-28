@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Frank Darabont",
+        "notable_work": "The Shawshank Redemption",
+        "awards": 2
+    },
+    {
+        "name": "Francis Ford Coppola",
+        "notable_work": "The Godfather",
+        "awards": 5
+    },
+    {
+        "name": "Christopher Nolan",
+        "notable_work": "The Dark Knight",
+        "awards": 3
+    },
+    {
+        "name": "Sidney Lumet",
+        "notable_work": "12 Angry Men",
+        "awards": 1
+    }
+]

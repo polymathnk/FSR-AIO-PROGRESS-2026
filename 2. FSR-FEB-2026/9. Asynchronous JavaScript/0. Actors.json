@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Tim Robbins",
+        "notable_work": "The Shawshank Redemption",
+        "awards": 1
+    },
+    {
+        "name": "Marlon Brando",
+        "notable_work": "The Godfather",
+        "awards": 2
+    },
+    {
+        "name": "Christian Bale",
+        "notable_work": "The Dark Knight",
+        "awards": 1
+    },
+    {
+        "name": "Henry Fonda",
+        "notable_work": "12 Angry Men",
+        "awards": 1
+    }
+]
