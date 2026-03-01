@@ -1,0 +1,120 @@
+    01. BASICS
+    [+] Conosle
+    [+] Variables & Constants
+    [+] Data Types
+    [+] Primitive vs Reference Types
+    [+] Type Conversion
+    [+] Operators
+    [+] Type Coercion
+    [+] Strings
+    [+] Numbers
+    [+] Math Object
+
+    02. DATE AND TIME
+    [+] Date Object
+    [+] Date Object Methods
+    [+] Date and Time API
+
+    03. ARRAYS AND OBJECTS
+    [+] Arrays
+    [+] Array Methods
+    [+] Nesting, Concat & Spread
+    [+] Objects
+    [+] Object Spread Operator
+    [+] Destructuring & Naming
+    [+] JSON
+
+    04. FUNCTIONS, SCOPE, AND EXECUTION CONTEXT
+    [+] Function Basics
+    [+] Parameters & Arguments
+    [+] Global & Function Scope
+    [+] Block Scope
+    [+] Nested Scope
+    [+] Declaration vs Expression
+    [+] Arrow Functions
+    [+] IIFE
+    [+] Execution Context
+    [+] Execution Context In Action
+    [+] The Call Stack
+
+    05. LOGIC AND CONTROL FLOW
+    [+] If Statements
+    [+] If-Else & Nesting
+    [+] Switch Statements
+    [+] Truthy & Falsy Values
+    [+] Logical Operators
+    [+] Logical Assignment
+    [+] Ternary Operator
+
+    06. LOOPS AND HIGH ORDER ARRAY FUNCTIONS
+    [+] For Loop
+    [+] Break & Continue
+    [+] While & Do...While Loops
+    [+] For...Of Loop
+    [+] For...In Loop
+    [+] Array.forEach
+    [+] Array.filter
+    [+] Array.map
+    [+] Array.reduce
+
+    07. THE DOCUMENT OBJECT MODEL (DOM)
+    [+] Intro To The DOM
+    [+] DOM Selectors Single Elements
+    [+] DOM Selectors Multiple Elements
+    [+] Traversing The DOM Elements
+    [+] Traversing The DOM Nodes
+    [+] Create & Append Elements
+    [+] innerHTML vs CreateElement
+    [+] Refactor To Multiple Functions
+    [+] Insert Elements, Text  & HTML
+    [+] Replacing Elements
+    [+] Removing Elements
+    [+] Working With Styles & Classes
+
+    08. EVENTS
+    [+] Click Events
+    [+] Mouse Events
+    [+] The Event Object
+    [+] Keyboard Events & Key Properties
+    [+] Input Events
+    [+] Form Submission & Form Object
+    [+] Event Bubbling
+    [+] Event Delegation & Multiple Events
+    [+] Page Loading & Window Events
+
+    09. ASYNCHRONOUS JAVASCRIPT
+    [+] SetTimeout & ClearTimeout
+    [+] SetInterval & ClearInterval
+    [+] Callbacks
+    [+] HTTP Requests
+    [+] AJAX & XHR Objeccts
+    [+] Callback Hell
+    [+] Promises
+    [+] Callback to Promises Refactoring
+    [+] Promises chaining
+    [+] Promises vs Callbacks
+    [+] Promise.all()
+
+    10. FETCH API & ASYNC AWAIT
+    [+] Fetch Basics
+    [+] Random User API
+    [+] Fetch Options - Method, Body, Headers
+    [+] Mini Todo
+    [+] Fetch API Error Handling
+    [+] Async & Await
+    [+] Try & Catch
+    [+] Async & Await Error Handling
+    [+] Multiple Promises With Async & Await
+
+    11. AUTHENTICATION AND DATABASE
+    [+] Aauthentication process
+    [+] Role-based access control
+    [+] Passport.js, JWT, Oauth
+    [+] CRUD operations
+    [+] NoSQL DB with CRUD - MongoDB
+    [+] SQL DB with CRUD - MySQL
+
+    12. PACKAGE MANAGERS AND TOOLS
+    [+] Webpack module bundler
+    [+] Babel Js Compiler
+    [+] Node Package Manager
