@@ -1,0 +1,174 @@
+01. BASICS
+
+[+] What is React
+[+] What is rendering
+[+] Types of rendering
+[+] SPA vs MPA
+[+] Virtual DOM
+[+] Real DOM vs Virtual DOM
+[+] React vs Vanilla JS
+[+] Setting up React (Vite / CRA)
+[+] Project Structure
+[+] JSX Basics
+[+] JSX Rules
+[+] Babel & Transpilation
+[+] React Folder Architecture
+
+02. COMPONENTS 
+
+[+] What are Components 
+[+] Types of Components
+[+] Functional Components
+[+] Class Components
+[+] Component Structure
+[+] Reusable Components
+[+] Nested Components
+[+] Component Composition
+[+] Fragments Tags
+[+] Default Props
+[+] Displaying Lists
+[+] Keys in React
+[+] Conditional Rendering
+[+] Ternary vs && rendering
+[+] ISR vs SSR vs CSR vs SG
+
+03. PROPS & STATES
+
+[+] What are Props 
+[+] Passing Props
+[+] Props Destructuring
+[+] Children Props
+[+] What is State 
+[+] useState Hook
+[+] Updating State Correctly
+[+] Functional Updates
+[+] Controlled Components
+[+] Uncontrolled Components
+[+] Lifting State Up
+[+] Prop Drilling
+
+04. EVENTS & FORMS
+
+[+] Event Handling in React
+[+] Synthetic Events
+[+] onClick, onChange, onSubmit
+[+] Prevent Default
+[+] Form Handling
+[+] Controlled Forms
+[+] Multiple Inputs Handling
+[+] Checkbox & Radio Handling
+[+] Form Validation Basics
+[+] Custom Form Hook
+
+05. HOOKS 
+
+[+] useState
+[+] useEffect
+[+] useContext
+[+] useRef
+[+] useReducer
+[+] useMemo
+[+] useCallback
+[+] useLayoutEffect
+[+] useImperativeHandle
+[+] useTransition
+[+] useDeferredValue
+[+] useId
+[+] useSyncExternalStore
+[+] useInsertionEffect
+[+] use
+[+] useOptimistic
+[+] useFormStatus
+[+] useActionState
+[+] Custom Hooks
+
+06. SIDE EFFECTS & DATA FETCHING
+
+[+] What are Side Effects 
+[+] Fetch inside useEffect
+[+] Async/Await in React
+[+] Loading State
+[+] Error Handling
+[+] AbortController
+[+] Debouncing
+[+] Pagination
+[+] Optimistic UI
+[+] Axios Integration
+[+] Environment Variables
+
+07. ROUTING
+
+[+] What is Routing 
+[+] Installing React Router
+[+] BrowserRouter
+[+] Routes & Route
+[+] Link vs NavLink
+[+] useParams
+[+] useNavigate
+[+] Nested Routes
+[+] Protected Routes
+[+] Dynamic Routes
+[+] 404 Page
+
+08. STATE MANAGEMENT
+
+[+] Context API 
+[+] Prop Drilling
+[+] Global State Patterns
+[+] Redux Toolkit
+[+] Actions & Reducers
+[+] Async Thunks
+[+] Zustand Toolkit
+[+] Server State vs Client State
+[+] React Query / TanStack Query
+
+09. PERFORMANCE OPTIMIZATION
+
+[+] Re-rendering
+[+] React.memo
+[+] useMemo Optimization
+[+] useCallback Optimization
+[+] Lazy Loading
+[+] React.lazy
+[+] Suspense
+[+] Code Splitting
+[+] Profiling React App
+[+] Avoiding Unnecessary Renders
+
+10. ADVANCED PATTERNS
+
+[+] Higher Order Components (HOC)
+[+] Render Props Pattern
+[+] Compound Components
+[+] Controlled vs Uncontrolled Pattern
+[+] Portals
+[+] Error Boundaries
+[+] Forward Ref
+[+] Strict Mode
+[+] Refs Forwarding
+[+] Context + Reducer Pattern
+
+11. TESTING & BEST PRACTICES
+
+[+] Why Testing 
+[+] Jest Basics
+[+] React Testing Library
+[+] Testing Components
+[+] Testing Hooks
+[+] Mocking API Calls
+[+] Folder Structure Best Practices
+[+] Clean Code in React
+[+] Naming Conventions
+[+] Reusability Principles
+[+] Accessibility (a11y) Basics
+
+12. DEPLOYMENT & ECOSYSTEM
+
+[+] Build Process
+[+] Staginh Process
+[+] Production Optimization
+[+] Environment Config
+[+] Hosting on Vercel
+[+] Hosting on Netlify
+[+] Firebase Hosting
+[+] React DevTools
