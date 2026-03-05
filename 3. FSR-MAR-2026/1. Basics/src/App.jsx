@@ -1,4 +1,5 @@
 import { useState } from "react";
+import RenderingArticle from "./Rendering";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ function App() {
           reusable UI components.
         </p>
       </div>
+      <RenderingArticle />
     </>
   );
 }
