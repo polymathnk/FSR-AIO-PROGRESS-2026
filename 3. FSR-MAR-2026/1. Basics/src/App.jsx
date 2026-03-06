@@ -1,12 +1,13 @@
 import { useState } from "react";
 import RenderingArticle from "./Rendering";
+import SpaVsMpa from "./SPAvsMPA";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <div>
+      <div style={{ maxWidth: "900px", margin: "0 auto", padding: "20px", lineHeight: "1.6" }}>
         <h1>What is react? ⚛️</h1>
         <p>
           React is a JavaScript library for building user interfaces. React is
@@ -15,6 +16,7 @@ function App() {
         </p>
       </div>
       <RenderingArticle />
+      <SpaVsMpa />
     </>
   );
 }

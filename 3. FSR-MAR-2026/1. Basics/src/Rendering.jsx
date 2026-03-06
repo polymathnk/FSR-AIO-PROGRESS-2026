@@ -1,6 +1,6 @@
 function RenderingArticle() {
   return (
-    <div>
+    <div style={{ maxWidth: "900px", margin: "0 auto", padding: "20px", lineHeight: "1.6" }}>
       <h1>Understanding Rendering in React</h1>
 
       <p>
