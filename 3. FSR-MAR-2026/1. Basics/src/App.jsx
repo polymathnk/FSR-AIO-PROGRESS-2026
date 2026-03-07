@@ -1,6 +1,7 @@
 import { useState } from "react";
 import RenderingArticle from "./Rendering";
 import SpaVsMpa from "./SPAvsMPA";
+import VirtualDOMPage from "./DOM";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,6 +18,7 @@ function App() {
       </div>
       <RenderingArticle />
       <SpaVsMpa />
+      <VirtualDOMPage />
     </>
   );
 }
