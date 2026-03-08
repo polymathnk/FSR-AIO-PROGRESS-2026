@@ -94,7 +94,7 @@ const styles = {
     lineHeight: "1.6",
   },
   title: {
-    textAlign: "center",
+    textAlign: "left",
     marginBottom: "40px",
   },
   section: {
