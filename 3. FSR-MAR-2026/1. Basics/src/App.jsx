@@ -1,6 +1,6 @@
 import { useState } from "react";
 import RenderingArticle from "./Rendering";
-import SpaVsMpa from "./SPAvsMPA";
+import SpaVsMpa from "./SPA-vs-MPA";
 import VirtualDOMPage from "./DOM";
 
 function App() {
