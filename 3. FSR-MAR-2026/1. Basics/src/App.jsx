@@ -3,6 +3,7 @@ import RenderingArticle from "./Rendering";
 import SpaVsMpa from "./SPA-vs-MPA";
 import VirtualDOMPage from "./DOM";
 import SetupReact from "./CRA-vs-VIte";
+import JSXTutorial from "./JSX-and-Structure";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,6 +22,7 @@ function App() {
       <SpaVsMpa />
       <VirtualDOMPage />
       <SetupReact />
+      <JSXTutorial />
     </>
   );
 }
