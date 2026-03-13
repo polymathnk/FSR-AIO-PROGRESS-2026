@@ -5,6 +5,7 @@ import VirtualDOMPage from "./DOM";
 import SetupReact from "./CRA-vs-VIte";
 import JSXTutorial from "./JSX-and-Structure";
 import BabelTranspilation from "./Babel";
+import ReactFolderArchitectureTutorial from "./Folder-Strcuture";
 
 function App() {
   const [count, setCount] = useState(0);
