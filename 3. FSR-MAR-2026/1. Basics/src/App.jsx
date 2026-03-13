@@ -5,11 +5,12 @@ import VirtualDOMPage from "./DOM";
 import SetupReact from "./CRA-vs-VIte";
 import JSXTutorial from "./JSX-and-Structure";
 import BabelTranspilation from "./Babel";
+import ReactFolderArchitectureTutorial from "./Folder-Strcuture";
 
 function App() {
   const [count, setCount] = useState(0);
 
-  return (
+  return (      
     <>
       <div style={{ maxWidth: "900px", margin: "0 auto", padding: "20px", lineHeight: "1.6" }}>
         <h1>What is react? ⚛️</h1>
@@ -25,6 +26,7 @@ function App() {
       <SetupReact />
       <JSXTutorial />
       <BabelTranspilation />
+      <ReactFolderArchitectureTutorial />
     </>
   );
 }
