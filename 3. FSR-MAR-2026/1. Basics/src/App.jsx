@@ -4,6 +4,7 @@ import SpaVsMpa from "./SPA-vs-MPA";
 import VirtualDOMPage from "./DOM";
 import SetupReact from "./CRA-vs-VIte";
 import JSXTutorial from "./JSX-and-Structure";
+import BabelTranspilation from "./Babel";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -23,6 +24,7 @@ function App() {
       <VirtualDOMPage />
       <SetupReact />
       <JSXTutorial />
+      <BabelTranspilation />
     </>
   );
 }
