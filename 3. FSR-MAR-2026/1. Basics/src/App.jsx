@@ -9,7 +9,7 @@ import BabelTranspilation from "./Babel";
 function App() {
   const [count, setCount] = useState(0);
 
-  return (
+  return (      
     <>
       <div style={{ maxWidth: "900px", margin: "0 auto", padding: "20px", lineHeight: "1.6" }}>
         <h1>What is react? ⚛️</h1>
@@ -25,6 +25,7 @@ function App() {
       <SetupReact />
       <JSXTutorial />
       <BabelTranspilation />
+      <ReactFolderArchitectureTutorial />
     </>
   );
 }
